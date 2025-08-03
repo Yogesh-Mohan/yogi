@@ -20,11 +20,6 @@ class product():
         print("appple profit:",self.profit)
 
 
-    def __init__(self,stak,investment,purchasing,profit):
-        self.stak=stak
-        self.investment=investment
-        self.purchasing=purchasing
-        self.profit=profit
     def orange(self):
 
         print("orange stak:",self.stak)
@@ -35,11 +30,6 @@ class product():
         print()
         print("orange profit:",self.profit)
 
-    def __init__(self,stak,investment,purchasing,profit):
-        self.stak=stak
-        self.investment=investment
-        self.purchasing=purchasing
-        self.profit=profit
     def mango(self):
 
         print("manogo stak:",self.stak)
@@ -50,11 +40,6 @@ class product():
         print()
         print("mango profit:",self.profit)
 
-    def __init__(self,stak,investment,purchasing,profit):
-        self.stak=stak
-        self.investment=investment
-        self.purchasing=purchasing
-        self.profit=profit
     def banana(self):
 
         print("banana stak:",self.stak)
@@ -82,4 +67,5 @@ elif(user=="banana"):
     print(banana.banana())
 else:
     print("this product is not avaliable")
+
 
